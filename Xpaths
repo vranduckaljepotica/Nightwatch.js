@@ -1,0 +1,53 @@
+about : //*[@id="root"]/nav/ul/li[1]/a
+
+services : //*[@id="root"]/nav/ul/li[2]/a
+
+teams : //*[@id="root"]/nav/ul/li[3]/a
+
+FB, Nela : //*[@id="team"]/div[2]/div/div/div/div/div[1]/div/div/div/ul/li[1]
+LinkedIn, Nela : //*[@id="team"]/div[2]/div/div/div/div/div[1]/div/div/div/ul/li[2]
+Tw, Amna  : //*[@id="team"]/div[2]/div/div/div/div/div[2]/div/div/div/ul/li[3]
+
+ // .assert.urlContains('as_q=Elon+Musk', 'Params: Query is Elon Musk.')
+        // .assert.urlContains('lr=lang_it', 'Paraams: Language is italian.')
+        // .assert.urlContains('as_qdr=m', 'Params: Updated in last month.')
+        // .assert.urlContains('as_occt=title', 'Params: Elon Musk is in the title.')
+        // .assert.visible(resultsPageQuerySelector, 'UI:Elon Musk is negdje.')
+              const resultsPageQuerySelector = 'input[name="a"][value="${mainQuery}"]';
+
+              save Screenshot (`foldername/${selecotr.substring(1,selector.length)}.png`)
+
+// const nameFieldValue = 'Amna Sinanovic'
+        // const emailFieldValue = 'amna995@outlook.com'
+        // const phoneNumberValue = '123123123'
+        // const messageFieldValue = 'I am not a robot, trust me.'
+
+                // .click('//*[@id="root"]/nav/ul/li[4]/a')
+        // .setValue('//*[@id="name"]', nameFieldValue)
+        // .pause(1000)
+        // .saveScreenshot('end-to-end/contact-us.png')
+        // .setValue('//*[@id="email"]', emailFieldValue)
+        // .pause(1000)
+        // .saveScreenshot('end-to-end/contact-us1.png')
+        // .setValue('//*[@id="phone"]', phoneNumberValue)
+        // .pause(1000)
+        // .saveScreenshot('end-to-end/contact-us2.png')
+        // .setValue('//*[@id="message"]', messageFieldValue)
+        // .saveScreenshot('end-to-end/contact-us3.png')
+        // .pause(1000)
+        // .click('//*[@id="contact-inputs"]/button')
+        // .pause(5000)
+        // .saveScreenshot('end-to-end/contact-us4.png')
+
+
+
+        database dropdown //*[@id="root"]/div/nav/ul/li[3]/a
+
+        reports dropdown //*[@id="root"]/div/nav/ul/li[4]/a
+
+        add employee //*[@id="root"]/div/main/button
+
+
+        employees database page //*[@id="root"]/div/main
+
+        teams //*[@id="root"]/div/main

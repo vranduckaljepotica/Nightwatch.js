@@ -1,0 +1,705 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "TimeKeeper Application",
+    "line": 2,
+    "id": "timekeeper-application",
+    "tags": [
+      {
+        "name": "@timekeeperapp",
+        "line": 1
+      }
+    ],
+    "uri": "features\\timekeeperapp.feature",
+    "elements": [
+      {
+        "id": "timekeeper-application;login-to-timekeeper-app",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login to TimeKeeper App",
+        "tags": [
+          {
+            "name": "@timekeeperapp",
+            "line": 1
+          },
+          {
+            "name": "@timekeeperlogin",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open TimeKeeper Static Pages",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1766000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I go to Login",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Login form exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Username field exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Type username in username field",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Password field exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Type password in password field",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "you fill the login form",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "You log in",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1106000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "timekeeper-application;timekeeper-application-dashboard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "TimeKeeper Application Dashboard",
+        "tags": [
+          {
+            "name": "@timekeeperapp",
+            "line": 1
+          },
+          {
+            "name": "@timekeeperdashboard",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Dashboard exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Navigation to Databases exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Database dropdown exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "timekeeper-application;timekeeper-database",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "TimeKeeper Database",
+        "tags": [
+          {
+            "name": "@timekeeperapp",
+            "line": 1
+          },
+          {
+            "name": "@timekeeperdatabases",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "navigation to Employees exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click on Employees to get table",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Employees table exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Navigation to Databases exists again",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Database dropdown exists again",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "navigation to Customers exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I click on Customers to get table",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Customers table exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Again navigation to Database dropdown menu exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Database dropdown menu exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "navigation to Projects exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I click on Projects to get table",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Projects table exists",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:157"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Again there is Database menu navigation",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Again there is Database dropdown",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "there is navigation to Teams",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I click on Teams",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "There is Teams carrousel",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "There is scroll through carrousel",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:195"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I click on scroll",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "there is Foxtrot Team",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "there is info about Foxtrot",
+            "match": {
+              "location": "step-definitions\\timekeeperapp.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "timekeeper-application;timekeeper-reports",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "TimeKeeper Reports",
+        "tags": [
+          {
+            "name": "@timekeeperapp",
+            "line": 1
+          },
+          {
+            "name": "@timekeeperreports",
+            "line": 48
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "navigation to Reports exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I click on Reports to get dropdown",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I click on TimeTracking Reports",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "TimeTracking Report exist",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I click on Reports",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "There is dropdown menu",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I click on Teams Report",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "Teams Reports exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I click on dropdown",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "dropdown exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I click on Monthly Reports",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "Monthly Reports exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "again I click on dropdown",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "again dropdown exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
